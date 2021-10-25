@@ -14,7 +14,7 @@
     </parent>
 
     <properties>
-        <jackson.version>2.5.0</jackson.version>
+        <jackson.version>2.13.0</jackson.version>
         <guava.version>16.0.1</guava.version>
         <application.version.number>${version}</application.version.number>
     </properties>
