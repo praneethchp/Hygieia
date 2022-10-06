@@ -15,7 +15,7 @@
 
     <properties>
         <jackson.version>2.5.0</jackson.version>
-        <guava.version>16.0.1</guava.version>
+        <guava.version>30.0-android</guava.version>
         <application.version.number>${version}</application.version.number>
     </properties>
 
@@ -122,7 +122,7 @@
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
-            <version>0.6.0</version>
+            <version>0.9.1</version>
         </dependency>
 
         <!-- Jackson -->
@@ -180,7 +180,7 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.1</version>
+            <version>2.7</version>
         </dependency>
         <dependency>
             <groupId>commons-beanutils</groupId>
@@ -206,12 +206,12 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
-            <version>2.4.0</version>
+            <version>2.10.0</version>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.4.0</version>
+            <version>2.10.0</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml</groupId>
